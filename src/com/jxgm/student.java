@@ -101,4 +101,10 @@ public class student {
         int k = i+ j ;
         System.out.println(k);
     }
+    public void sum(){
+        int i = 1000;
+        int j =1000;
+        int k = i+j;
+        System.out.println(k);
+    }
 }
