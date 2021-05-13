@@ -7,6 +7,24 @@ public class student {
     private String sex;
     private String address;
     private String phone;
+    private String hoppy;
+    private double price;
+
+    public String getHoppy() {
+        return hoppy;
+    }
+
+    public void setHoppy(String hoppy) {
+        this.hoppy = hoppy;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
 
     public String getId() {
         return id;
@@ -75,5 +93,12 @@ public class student {
                 ", sex='" + sex + '\'' +
                 ", address='" + address + '\'' +
                 '}';
+    }
+
+    public void count(){
+        int i = 10;
+        int j = 20;
+        int k = i+ j ;
+        System.out.println(k);
     }
 }
