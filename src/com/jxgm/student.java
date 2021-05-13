@@ -9,6 +9,15 @@ public class student {
     private String phone;
     private String hoppy;
     private double price;
+    private String body;
+
+    public String getBody() {
+        return body;
+    }
+
+    public void setBody(String body) {
+        this.body = body;
+    }
 
     public String getHoppy() {
         return hoppy;
@@ -109,5 +118,8 @@ public class student {
     }
     public void some(){
         System.out.println("some方法定义了");
+    }
+    public void a(){
+        System.out.println("a方法执行了");
     }
 }
