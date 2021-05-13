@@ -110,4 +110,7 @@ public class student {
     public void some(){
         System.out.println("some方法定义了");
     }
+    public void other(){
+        System.out.println("other方法执行了");
+    }
 }
