@@ -107,4 +107,7 @@ public class student {
         int k = i+j;
         System.out.println(k);
     }
+    public void some(){
+        System.out.println("some方法定义了");
+    }
 }
