@@ -119,7 +119,4 @@ public class student {
     public void some(){
         System.out.println("some方法定义了");
     }
-    public void a(){
-        System.out.println("a方法执行了");
-    }
 }
